@@ -1,0 +1,102 @@
+body {
+    background-color: lightgreen;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.header {
+    border: 20px outset indigo;
+    background-color: cyan;
+    text-align: center;
+    text-anchor: middle;
+    width: auto;
+    height: auto;
+    padding: 2%;
+}
+
+h1 {
+    color: purple;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 42px;
+    margin: 0px;
+}
+
+h2 {
+    color: blueviolet;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 1px;
+}
+
+.info {
+    border: 5px outset darkblue;
+    background-color: cyan;
+    flex-basis: auto;
+    padding: 2%;
+    text-align: center;
+    width: auto;
+    height: auto;
+    flex: 1;
+}
+
+h3 {
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: larger;
+}
+
+p {
+    color: darkmagenta;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+input, option, select {
+    background-color: palegoldenrod;
+    color: darkblue;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    font-size: large;
+}
+
+.menu {
+    border: 10px outset darkblue;
+    background-color: cyan;
+    flex-basis: auto;
+    padding: 2%;
+    text-align: center;
+    width: auto;
+    height: auto;
+    flex: 2;
+    color: darkviolet;
+}
+
+#h3 {
+    border: 2px outset navy;
+    padding: 1%;
+    text-align: center;
+}
+
+fieldset {
+    text-align: center;
+}
+
+legend {
+    font-weight: bold;
+    font-size: large;
+}
+
+::placeholder {
+    color: darkblue;
+}
+
+input {
+    color: crimson;
+}
+
+textarea {
+    background-color: beige;
+}
